@@ -1,11 +1,15 @@
+"use client"
+
 import Image from "next/image";
 import GithubIcon from "@/components/icons/GithubIcon";
 import GitlabIcon from "@/components/icons/GitlabIcon";
 import OpenlinkIcon from "@/components/icons/OpenlinkIcon";
 import Link from "next/link";
+import {useRouter} from "next/navigation";
 
 type ProjectProps = {
     project: {
+        key: string,
         name: string,
         description: string,
         image: string,
@@ -16,10 +20,15 @@ type ProjectProps = {
 }
 
 export default function Project({project}: ProjectProps) {
+    const router = useRouter()
+    const handleClick = () => {
+        router.push(`/projects/${project.key}`)
+    }
+
     return (
         <div>
-            <div className="w-[512px] h-[288px] rounded-md overflow-hidden relative">
-                <Link href={"/project/1"}>
+            <div className="w-[448px] h-[252px] rounded-md overflow-hidden relative">
+                <div onClick={handleClick} className="cursor-pointer">
                     <Image
                         className="rounded-md transition-transform duration-400 ease-linear hover:scale-105 hover:brightness-[0.35]"
                         src={project.image}
@@ -27,7 +36,7 @@ export default function Project({project}: ProjectProps) {
                         width={512}
                         height={288}
                     />
-                </Link>
+                </div>
             </div>
 
             <div className="flex justify-between mx-3 mt-3">

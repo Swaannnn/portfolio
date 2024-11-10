@@ -8,16 +8,11 @@ export default function ProjectsPage() {
             <h2>Here are my realisations</h2>
 
             <br/><br/><br/><br/>
-            <div>
-                <div className="flex gap-10 mb-24">
-                    <Project project={projects[0]}/>
-                    <Project project={projects[1]}/>
-                    <Project project={projects[2]}/>
-                </div>
-                <div className="flex gap-10">
-                    <Project project={projects[3]}/>
-                    <Project project={projects[4]}/>
-                    <Project project={projects[5]}/>
+            <div className="width-full">
+                <div className="flex gap-10 flex-wrap justify-center">
+                    {Object.entries(projects).map(([key, project]) => (
+                        <Project project={{ ...project, key }} key={key} />
+                    ))}
                 </div>
             </div>
         </div>
