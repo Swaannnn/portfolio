@@ -4,37 +4,39 @@
     "description": "Description of project 1 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
     "image": "/images/projects/spotifeur.png",
     "github": "https://github.com/swaannnn/spotifeur",
-    "url": "https://spotifeur.vercel.app/"
+    "url": "https://spotifeur.vercel.app/",
+    "personal": true
   },
   "botanicia": {
     "name": "Botanicia",
     "description": "Description of project 2 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
     "image": "/images/projects/botanicia.png",
-    "gitlab": "https://github.com/swaannnn/spotifeur"
+    "personal": false
+  },
+  "medically": {
+    "name": "Medically",
+    "description": "Description of project 6 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
+    "image": "/images/projects/medically.png",
+    "personal": false
   },
   "football": {
     "name": "Site de football",
     "description": "Description of project 3 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
     "image": "/images/projects/football.png",
-    "gitlab": "https://github.com/swaannnn/spotifeur"
+    "personal": false
   },
   "filmophore": {
     "name": "FilmoPhore",
     "description": "Description of project 4 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
     "image": "/images/projects/filmophore.png",
     "github": "https://github.com/swaannnn/spotifeur",
-    "url": "https://spotifeur.vercel.app/"
+    "url": "https://spotifeur.vercel.app/",
+    "personal": true
   },
   "puissance4": {
     "name": "Puissance 4",
     "description": "Description of project 5 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
     "image": "/images/projects/puissance4.png",
-    "gitlab": "https://github.com/swaannnn/spotifeur"
-  },
-  "particules": {
-    "name": "Projet particules",
-    "description": "Description of project 6 kqjsdhf lqsjhdf lkqsjdhf lkqsjdjhf mlkqskjdf mlqskdjfg lkqmsjdhjfl kqsjhdfg mlqskdjg mlqksfjg lkqsjdjf mlsqjdhf mlqskdjf lkqsjdhf mlqskdjf mlqskdjf lkqsjdhf lkqsjdhf lkmqsdjf mlqskdjf mlqskdjf ",
-    "image": "/images/projects/projet_particules.gif",
-    "gitlab": "https://github.com/swaannnn/spotifeur"
+    "personal": false
   }
 }

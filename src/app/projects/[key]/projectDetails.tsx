@@ -7,7 +7,6 @@ type ProjectProps = {
         description: string,
         image: string,
         github?: string,
-        gitlab?: string,
         url?: string,
     }
 }
